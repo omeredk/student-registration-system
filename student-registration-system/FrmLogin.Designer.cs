@@ -38,9 +38,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(14, 39);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(140, 18);
+            this.label1.Size = new System.Drawing.Size(132, 18);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Student Number1:";
+            this.label1.Text = "Student Number:";
             // 
             // maskedTextBox1
             // 
