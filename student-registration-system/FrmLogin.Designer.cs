@@ -38,9 +38,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(14, 39);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(132, 18);
+            this.label1.Size = new System.Drawing.Size(140, 18);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Student Number:";
+            this.label1.Text = "Student Number1:";
             // 
             // maskedTextBox1
             // 
@@ -50,7 +50,6 @@
             this.maskedTextBox1.Size = new System.Drawing.Size(100, 26);
             this.maskedTextBox1.TabIndex = 1;
             this.maskedTextBox1.ValidatingType = typeof(int);
-            //this.maskedTextBox1.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox1_MaskInputRejected);
             // 
             // button1
             // 
@@ -75,6 +74,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmLogin";
             this.Text = "Student Registration System";
+            this.Load += new System.EventHandler(this.FrmLogin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

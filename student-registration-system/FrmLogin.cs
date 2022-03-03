@@ -30,6 +30,9 @@ namespace student_registration_system
             }
         }
 
+        private void FrmLogin_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 }
